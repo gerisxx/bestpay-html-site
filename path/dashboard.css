@@ -67,22 +67,23 @@ img{
 }
 
 h1{
-    font-weight: 00;
-    font-size: 1.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
 
 h2{
-    font-weight: 800;
-    font-size: 1.4rem;
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 1.0rem;
 }
 
 h5{
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 600;
+    font-size: 0.7rem;
 }
 
 h3{
-    font-weight: 500;
+    font-weight: 100;
     font-size: 0.87rem;
 }
 
@@ -338,28 +339,24 @@ main .new-users .user-list .user{
 }
 
 main .new-users .user-list .user-ishare img{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     margin-bottom: 0.4rem;
-   // border-radius: 0%;
+    border-radius: 80%;
 }
 
 main .new-users .user-list .user-wallet img{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     margin-bottom: 0.4rem;
- border-radius: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    border-radius: 80%;
 }
 
 main .new-users .user-list .user-bt img{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     margin-bottom: 0.4rem;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 
 main .new-users .user-list .user-bt{
@@ -391,10 +388,10 @@ main .new-users .user-list .user-mtn{
 }
 
 main .new-users .user-list .user-mtn img{
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     margin-bottom: 0.4rem;
-    border-radius: 50%;
+    border-radius: 80%;
 }
 
 main .recent-orders{
