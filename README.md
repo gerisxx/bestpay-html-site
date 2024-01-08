@@ -1,1 +1,0 @@
-# bestpay-html-site
