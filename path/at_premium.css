@@ -383,8 +383,7 @@ main{
     font-weight: 400;
     border-radius: 8px;
     align-items: center;
-    cursor: pointer;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
