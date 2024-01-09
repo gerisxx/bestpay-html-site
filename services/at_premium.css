@@ -46,6 +46,8 @@ html{
 }
 
 body{
+    padding-left: 15px;
+    padding-right: 15px;
     width: 100vw;
     height: 100vh;
     font-family: 'Poppins', sans-serif;

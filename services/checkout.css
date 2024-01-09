@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.checkout-payment .hr.dotted {
+    border-top: 8px solid #bbb;
+    background-color: rgb(23, 67, 227);
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+hr {
+    color: black;
+}
+
+.payment-body {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-payment {
+    background-color: white;
+  //  display: flex;
+    align-items: start;
+    padding: 20px;
+  //  height: 100vh;
+    width: 350px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.receiver-text {
+
+}
+
+.rec-row {
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-around;
+    width: 350px;
+}
+
+body {
+    background-color: #f6f6f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.momo-class {
+    display: flex;
+    font-size: 12px;
+    justify-content: start;
+}
+
+.momo-class .radio {
+    margin-right: 10px;
+}
+
+.wallet-class {
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+}
+
+.wallet-class .radio {
+    margin-right: 10px;
+}
+
+.payment-body .receiver {
+    font-size: 15px;
+    justify-content: space-around;
+    font-weight: 300;
+    color: #1743e3;
+}
+
+.forget {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 20px 0;
+    color: #fff;
+}
+#remember {
+    accent-color: black;
+    background: #1743e3;
+    font-size: 10px;
+}
+.forget label {
+    display: flex;
+    align-items: center;
+}
+.forget label p {
+    font-size: 12px;
+}
+
+p {
+    color: black;
+    font-size: 12px;
+}
+
+
+.btn {
+//  display: inline-block;
+    padding: 15px 28px;
+    background: #1743e3;
+    border: 2px solid #1743e3;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #1743e3;
+}
+
+.payment-cont-color {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: lightblue;
+}
