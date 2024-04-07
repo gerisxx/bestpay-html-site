@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>BestPAY | Welcome</title>
 </head>
-
 <body>
-
-<div class="container">
-    <div class="glass-container">
-        <nav class="navbar">
-            <div class="logo"><a href="#">BestPAY</a></div>
-            <ul class="nav-links">
-                <li class="nav-link"><a href="#">Home</a></li>
-                <li class="nav-link"><a href="#">Youtube</a></li>
-                <li class="nav-link"><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <div class="main">
-                <h2>Hey! 👋,<br>It's good to see you again</h2>
-                <p>
-                    At BestPAY,speed meets ease. Our Data Bundles, Your oasis of connectivity in the desert of Endless Possibilities
-                </p>
-                <a href="login.html" class="button" > <button>Get Started</button></a>
-
-            </div>
-            <div class="image-wrapper">
-                <img src="/images/intro.png">
-                <div class="attrebute">
-                    <a
-                            href="https://www.freepik.com/free-psd/marketing-concept-with-woman-rocketship_33417710.htm#page=2&query=3d%20illustration&position=32&from_view=search&track=ais">Image
-                        by Freepik</a>
+    <div class="container">
+        <div class="glass-container">
+            <nav class="navbar">
+                <div class="logo"><a href="#">BestPAY</a></div>
+                <ul class="nav-links">
+                    <li class="nav-link"><a href="#">Home</a></li>
+                    <li class="nav-link"><a href="#">Youtube</a></li>
+                    <li class="nav-link"><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="content">
+                <div class="main">
+                    <h2>Hey! 👋,<br>Welcome To Syrex Hub</h2>
+                    <p>
+                        At Syrex Hub, speed meets ease. Our Hub With All Working Stuffs, Your oasis of connectivity in the desert of Endless Possibilities!
+                    </p>
+                    <button class="button" onclick="copyToClipboard()">Copy Script</button>
+                </div>
+                <div class="image-wrapper">
+                    <img src="/images/intro.png">
+                    <div class="attribute">
+                        <a href="https://www.freepik.com/free-psd/marketing-concept-with-woman-rocketship_33417710.htm#page=2&query=3d%20illustration&position=32&from_view=search&track=ais">Image Source</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
+    <script>
+        function copyToClipboard() {
+            var textToCopy = document.querySelector(".main p").textContent;
+            var textArea = document.createElement("textarea");
+            textArea.value = textToCopy;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textArea);
+
+            var copyButton = document.querySelector(".button");
+            copyButton.textContent = "Copied";
+
+            setTimeout(function() {
+                copyButton.textContent = "Copy Script";
+            }, 2000); // Change back to "Copy Script" after 2 seconds
+        }
+    </script>
 </body>
-
 </html>
